@@ -9,3 +9,6 @@ def cigar_party(n,w):
 			return True
 		else:	
 			return False
+print(cigar_party(30,False))
+print(cigar_party(50,False))
+print(cigar_party(70,True))
